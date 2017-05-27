@@ -9,4 +9,21 @@ describe('FizzBuzz', function(){
     it('should return 2 for 2', function (){
         assert(fizzBuzz.shout(2) === '2');
     });
+
+    it('should return fizz for 3', function (){
+        assert(fizzBuzz.shout(3) === 'fizz');
+    });
+
+    it('should return fizz for 6', function (){
+        assert(fizzBuzz.shout(6) === 'fizz');
+    });
+
+    it('should return buzz for 5', function (){
+        assert(fizzBuzz.shout(5) === 'buzz');
+    });
+
+    it('should return buzz for 10', function (){
+        assert(fizzBuzz.shout(10) === 'buzz');
+    });
+
 });
